@@ -10,6 +10,14 @@ body {
     background-color: #fdfdfd;
 }
 
+h2 {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+}
+
 #navbar > ul {
     list-style-type: none;
     margin: 0;
@@ -23,7 +31,7 @@ li {
 
 li a {
     display: block;
-    color: rgb(12, 12, 12);
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,6 +53,7 @@ div {
     border: none;
     border-bottom: 1px solid black;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 input, textarea {
@@ -54,10 +63,47 @@ input, textarea {
     border-bottom: 1px solid black;
 }
 
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#personal {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1rem;
+}
+
+#summary > p {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1rem;   
+}
+
+#skills {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1rem;
+}
+
 #experience {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+#acknowledgement {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1rem;
 }
 
 article {
@@ -65,6 +111,7 @@ article {
     padding: 1rem;
     text-align: center;
     background-color: #ffffff;
+    margin: 1rem;
 }
 
 .submit {
@@ -77,4 +124,15 @@ article {
 
 .submit :hover {
     opacity: 0.6;
+}
+
+img {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    text-align: center;
 }
